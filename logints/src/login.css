@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.body{
+    background-color:#9faabb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+}
+.first{
+    background-color: white;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.5rem;
+    width: 70%;
+    
+
+}
+.line1{
+    padding: 1.5rem 0;
+    line-height: 1.5em;
+}
+.line2
+{
+    color: grey;
+    padding-bottom: 2em;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-size: normal;
+}
+.smallbox
+{
+    
+    height: 30px;
+    width: 30px;
+    background-color:blue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .4em;
+}
+.dot
+{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.left-img
+{
+    display: flex;
+
+    align-items: center;
+    padding: .4em;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-img h2{
+    font-size: 1em;
+    padding: 0 .5em ;
+} 
+.left-img h3{
+    font-size: .8em;
+    padding: 0 .5em;
+} 
+.box{
+
+    background-color: #2d3345;
+    color: white;
+    padding: 1rem ;
+    width: 90%;
+    border-radius: .5em;
+    line-height: 1.5rem;
+    
+
+}
+
+.second{
+    background-color:#f3f5f9;
+    border-radius: 1.5rem;
+    padding: 1.4em;
+    width: 90%;
+}
+
+/* second div */
+
+
+.third
+{
+    padding: 1em;
+  
+}
+.third-h
+{
+ padding: 1em 0; 
+
+}
+.third h4
+{
+    padding: 0 0 .5em;
+    color: grey;
+}
+.form-group
+{
+  
+    padding: 1em 0;
+}
+.input-box
+{
+    margin: 1em 0;
+}
+.input-box input
+{
+   border: 1px solid gray;
+    width: 100%;
+    padding: .4em;
+    border-radius: .3em;
+    outline: none;
+}
+.input-box label
+{
+    
+    padding: .4em 0;
+    text-transform: capitalize;
+    color: gray;
+}
+.button108
+{
+    margin: .6em 0;
+    border: none;
+    background-color: blue;
+    width: 100%;
+    padding: .4em;
+    border-radius: .4em;
+    outline: none;
+    color: white;
+}
+h5
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+a{
+    font-size: normal;
+    color: blue;
+}
+span{
+    color:red;
+    margin-left: 15rem;
+}
+.back{
+    background-color: white;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.5rem;
+    width: 60%;
+}

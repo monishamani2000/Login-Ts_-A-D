@@ -1,0 +1,98 @@
+.highlighted{
+    background-color:rgb(153, 236, 157);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background: linear-gradient(to bottom,#46526E 25%,#FAFAFC 15%,#FAFAFC 20%,#FAFAFC 20%,#FAFAFC 20% );
+    min-height: 100vh;
+    color: #FFFFFF;
+    padding: 5em;
+    overflow: hidden;
+}
+.container-box
+{
+    color: black;
+   min-height: 50vh;
+   background-color: #FFFFFF;
+}
+.header-icons
+{
+  border-bottom: 1px solid #9e9ea7;
+    display: flex;
+    justify-content: space-between;
+    min-height: 8vh;
+    align-items: center;
+    padding: 0 1em ;
+    color: #9e9ea7;
+    font-weight: bold;
+}
+.icon-map
+{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.icon-left
+{
+    display: flex;
+   
+    align-items: center;
+}
+.search-box
+{
+    border-bottom: 1px solid #9e9ea7;
+    display: flex;
+    min-height: 8vh;
+    align-items: center;
+    padding: 0 1em ;
+    justify-content: flex-end;
+    position: relative;
+
+}
+input
+{
+    outline: none;
+    border: 2px solid #9e9ea7;
+    width: 25%;
+    padding: .5em 1em ;  
+    border-radius: .3em;
+    transition: all .6s ease-in;
+}
+.icon-search
+{
+    position: absolute;
+    right: 25px;
+    color: #9e9ea7;
+
+}
+input:focus
+{
+    border: 2px solid black;
+}
+/* TABLE  */
+
+table
+{
+    margin-top: 10px;
+    border: 2px  solid black;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table thead tr th,td
+{
+    border: 2px solid #e0e1e2;
+    padding: 10px;
+}
+table thead tr th
+{
+    background-color:#e0e1e2;
+}
+table tbody tr td:first-child{
+    color: #2771e8;
+}
